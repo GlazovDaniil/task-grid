@@ -1,5 +1,16 @@
 html,
 body,
+.grid-container{
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 100px 200px 100px;
+}
+.grid-container > div{
+    background-color: #DAA520;
+    margin: 10px 10px 10px 10px;
+}
 #root {
     height: 100%;
     margin: 0;
