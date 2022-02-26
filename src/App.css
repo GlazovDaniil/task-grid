@@ -7,9 +7,21 @@ body,
     grid-template-columns: 350px 350px;
     grid-template-rows: 100px 200px 100px;
 }
+.grid-container > *:nth-child(1){
+    margin: 0px 10px 10px 0px;
+}
+.grid-container > *:nth-child(2){
+    margin: 0px 10px 10px 10px;
+}
+.grid-container > *:nth-child(3), *:nth-child(5){
+    margin: 10px 10px 10px 0px;
+}
+.grid-container > *:nth-child(4){
+    margin: 10px 10px 10px 10px;
+}
+
 .grid-container > div{
     background-color: #DAA520;
-    margin: 10px 10px 10px 10px;
 }
 #root {
     height: 100%;
